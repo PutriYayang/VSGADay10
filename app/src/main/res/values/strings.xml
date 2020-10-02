@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">VSGA</string>
+    <string name="action_settings">Setting</string>
+    <string name="action_new_game">New Game</string>
+    <string name="action_help">Help</string>
+
+</resources>
