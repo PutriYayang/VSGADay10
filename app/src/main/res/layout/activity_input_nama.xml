@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InputNama">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:hint="Masukkan Nama Anda"
+        android:id="@+id/TxtNama"
+        android:inputType="none"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TxtNama"
+        android:text="@string/btntampilnama"
+        android:id="@+id/btntampil"
+        android:onClick="TampilNama"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Label2"
+        android:textSize="20sp"
+        android:layout_below="@+id/btntampil"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:paddingTop="30dp"
+        android:gravity="center"
+        android:padding="5dp"/>
+
+</RelativeLayout>

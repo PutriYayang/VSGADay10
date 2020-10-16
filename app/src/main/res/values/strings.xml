@@ -4,4 +4,7 @@
     <string name="action_new_game">New Game</string>
     <string name="action_help">Help</string>
 
+    <string name="lblnama">Masukkan Nama Anda</string>
+    <string name="btntampilnama">Tampilkan</string>
+    <string name="title_activity_aplikasi_sqlite">AplikasiSQLite</string>
 </resources>
